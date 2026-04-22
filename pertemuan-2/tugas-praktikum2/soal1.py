@@ -12,7 +12,7 @@ Kemudian:
 
 def RataRata(nilai): #deklarasi fungsi bernama RataRata dengan parameter nilai
     if not nilai:
-        return print('Data kosong') #jika data nilai kosong, akan mengembalikan pesan 'Data kosong'
+        return 'Data kosong' #jika data nilai kosong, akan mengembalikan pesan 'Data kosong'
     
     total = sum(nilai) #menghitung total data
     rata_rata = total / len(nilai) #menghitung rata-rata data
